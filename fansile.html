@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* 导航条 */
+.topnav {
+  position: fixed;
+  overflow: hidden;
+  width:100%;
+  background-color: rgb(51, 51, 51);
+  border-radius: 25px;
+}
+ 
+/* 导航链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 21px 24px;
+  width: 20%;
+  font-weight:bold;
+  text-decoration: none;
+}
+ 
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#myImg{ transition: all 1s ease-in-out;
+    position: absolute;
+        left: 500px;
+        top: 150px
+}
+#myImg:hover{
+	transform:scale(1.2);
+}
+div h1{
+  color: darkblue;
+  text-align: center;
+  font-size:80px;
+}
+.events_item{
+    width: 1000px;
+height: 500px;
+padding: 5px;
+border: 5px solid lightgrey;
+border-radius: 8px;
+margin: 20px;
+left: 200px;
+}
+.flo_right{
+float:right;
+}
+.flo_left{
+float:left;
+}
+.events_intro{
+overflow:hidden;
+width: 550px;
+}
+.events_intro h1 {
+    font-size:40px;
+    color: black;
+    line-height: 1.5;
+}
+.events_intro h2{
+    font-size:30px;
+    color: cornflowerblue;
+    line-height: 1.5;
+}
+.events_intro p{
+padding:10px;
+line-height:1.5;
+font-size:10px;
+}
+.d{
+ border:2px solid purple;
+ border-radius:15px;
+ padding:8px;
+ position:relative;
+ left:130px;
+ top:150px;
+ width:3cm;
+}
+.b{
+ border:2px solid purple;
+ border-radius:15px;
+ padding:8px;
+ position:relative;
+ left:400px;
+ top:-50px;
+ width:3cm;
+}
+.c{
+ border:2px solid purple;
+ border-radius:15px;
+ padding:8px;
+ position:relative;
+ left:650px;
+ top:-270px;
+ width:3cm;
+}
+.box{
+     
+ padding:30px;
+ background-color:cornsilk;
+ border:5px solid black;
+ border-radius:50px;
+ margin:25px;
+ width:1000px;
+ height:500px; 
+}
+.boxla{
+    width: 1000px;
+    height: 500px;
+    padding: 5px;
+    border: 5px solid green;
+    border-radius: 5px;
+    margin: 2px;
+    left: 200px;
+}
+.boxla h1{
+    font-size:40px;
+    color: rgb(36, 86, 36);
+}
+.boxla h2{
+    font-size:20px;
+    color: black;
+}
+.boxla p{
+    font-size: 10px;
+    color: black;
+    padding:10px;
+    line-height:1.5;
+
+}
+.button {
+    background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 160px;
+cursor: pointer;
+border-radius: 5px;
+margin-right: 20px;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="#">Introduction</a>
+  <a href="#">About Us</a>
+  <a href="[加入新思路 (new-thread.com)](https://campus.new-thread.com/)">NewThread</a>
+  <a href="#">Contact Us</a>
+  <a href="#">Q&A</a>
+</div>
+<img id="myImg" src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/decoration_Geek.png" width="900" height="400" />
+</body>
+</style>
+<body>
+  <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/background_Homepage.png" alt="background_Homepage">
+  <div >
+ <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/decoration_Transition.png" alt="decoration_Transition"width="1890" height="200">
+ <h1>Introduction</h1>
+ </div>
+ <div class="events_item">
+  <img class="flo_right" src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/Geek_Programmer.png" width="350" height="480"/>
+  <div class="events_intro">
+  <h1> &emsp;开发程序猿</h1><br>
+  <h2> &emsp;“Stay Hungry，Stay Foolish” </h2>
+      
+  <p>前端：前端开发是创建Web或app视觉界面呈现给用户的过程通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，实现互联网产品的用户界面交互。</p><br>
+  <p>   后端：通常也称服务器端开发。不对用户显示,负责处理前端的请求，进行逻辑处理和数据交互。 客户端: 移动应用开发是为了小型、无线计算设备编写软件的流程和程序的集合，例如智能手机或平板电脑。</p>
+  </div><!--events_intro-->
+  </div><!--events_item-->
+  <div class="events_item">
+    <img  class="flo_left" src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/Geek_PM.png" width="350" height="480"/>
+    <div class="events_intro">
+    <h1> &emsp;产品经理</h1><br>
+      <h2> &emsp;"好的软件的特征是,明明没用过，但总觉得用过似的。"</h2>
+      <p>PM是针对某一项或是某一类的产品进行规划和管理的人员。 PM需要拥有缜密的产品逻辑思维，研究用户心理，负责产品的整个生命周期。 PM参与产品的UI和交互设计，为设计和开发确定产品原型，能够将产品变得有个性,操作变得舒适简单、自由。 PM需要一定的文档能力和沟通能力，能够在团队合作的过程中跟各个角色进行有效沟通。</p>
+    </div><!--events_intro-->
+    </div><!--events_item-->
+    <div class="events_item">
+      <img class="flo_right" src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/Geek_Designer.png" width="350" height="480" />
+      <div class="events_intro">
+          <h1> &emsp;游戏美术</h1><br>
+          <h2> &emsp;"路漫漫其修远兮，非大毅力者不能"</h2>
+      <p>通俗的说法是游戏中所能看到的一切画面都属于游戏美术，其中包括了角色、UI、场景、道具、动画、特效等。 CG艺术的一个分支：游戏美术。游戏美术是游戏制作的重要部分的，通过各种软件引擎和技术技巧，完成相应的部分游戏制作， 各个不同岗位的游戏美术师们通力合作，才能完成一部完整的游戏。</p>
+      </div><!--events_intro-->
+      </div><!--events_item-->
+      <div class="events_item">
+        <img class="flo_left" src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/Geek_Game.png" width="350" height="480"/>
+        <div class="events_intro">
+            <h1> &emsp;游戏开发</h1><br>
+            <h2> &emsp;"TECH OTAKUS SAVE THE WORLD"</h2>
+        <p>对游戏开发的热爱和追求，使我们相聚于此。 涉及计算机图形学的学习，我们使用物理模拟引擎Unity开发我们所追求的世界，一个故事，一个角色，在我们的世界里改变现实，创造新的可能，我们参与，我们改变，我们创造..</p>
+        </div><!--events_intro-->
+        </div><!--events_item-->
+        <div class="box">
+          <h2 align="center">About Us</h2>
+          <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/about_Speech.png" style="width:100px;height:100px;position: absolute;left: 200px;top: 3950px;">
+          <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/about_Diversity.png" style="width:100px;height:100px;position:absolute;left:480px;top:3950px">
+          <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/about_Time.png" style="width:100px;height:100px;position:absolute;left:730px;top:3950px">
+         
+              <p class="d">每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。</p>
+              <p class="b">多元化是我们的特色。在这里你可以拥有多种方向选择，前后端、安全、AI、产品/设计、游戏等。</p>
+              <p class="c">耐心、毅力是我们必备的品质，每周我们会至少花38小时在实验室中。以保证技术的精进。</p>
+      </div>
+      <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/decoration_Decoration.png"
+                              style="width:150px;height:50px;position:relative;left:890px;top:-650px;">
+      <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/decoration_Decoration.png"
+                              style="width:150px;height:50px;position:relative;left:-120px;top:-650px;">
+      <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/decoration_Decoration.png"
+                              style="width:150px;height:50px;position:relative;left:560px;top:-190px;">
+      <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/decoration_Decoration.png"
+                              style="width:150px;height:50px;position:relative;left:-450px;top:-190px;">
+       <img src="https://raw.githubusercontent.com/Crystal-Amanda/Tasks/main/decoration_Butterfly.png"
+                              style="width:200px;height:170px;position:relative;left:200px;top:-280px;">
+    <div class="boxla">
+      <h1 align="center">Contact Us</h1>
+      <h2 align="center">•热爱计算机，具有geek精神，喜欢DIY，动手能力较强<br>
+  
+      •有编程/算法/硬件基础为佳(有作品可附上)<br>
+          
+      •有足够的空余时间，热爱思考，对事物有自己的见解
+           </h2>
+      <p align="center">ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被<br>
+                        允许进群,在读学生, 都可邮件到newthread_geek@outlook.com报名<br>
+                        加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</p>
+       <button class="button">QQ Group</button>
+       <button class="button">E-mail</button>
+       <a href="https://github.com/ntgeek/2022-Geek" class="button">GitHub</a>
+      
+  </div>
+    
+</html>
